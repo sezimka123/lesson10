@@ -1,9 +1,17 @@
 import 'dart:io';
+import 'dart:math';
 
 void main() {
-   print("Enter the number from 1 to 100 so that computer could guess it: ");
-   int input = int.parse(stdin.readLineSync()!);
-binarySearch();
+  // int random = Random().nextInt(100);
+  // print(random);
+
+  // int min = 50;
+  // int max = 100;
+  // int random2 = min + Random().nextInt(max - min);
+  // print(random2);
+  print("Enter the number from 1 to 100 so that computer could guess it: ");
+  int input = int.parse(stdin.readLineSync()!);
+  binarySearch();
 }
 
 binarySearch() {
